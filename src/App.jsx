@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+// Component class
 class Welcome extends React.Component{
   constructor(props){
     super(props)
@@ -10,11 +11,13 @@ class Welcome extends React.Component{
   }
 }
 
+// Hook
 const WelcomeHook = (props) => {
   return <h1>Hook {props.name}</h1>
 }
 
 function App() {
+  // styles always take object format
   const stingoz = {
     color:'#354673',
     textTransform: 'uppercase',
